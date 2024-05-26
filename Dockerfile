@@ -18,6 +18,7 @@ ENV MODEL_URL='https://storage.googleapis.com/gcp-sofyanegi/submissions-model/mo
 
 ENV PROJECT_ID='gcp-sofyanegi'
 ENV DATABASE_ID='(default)'
+ENV PORT=8080
 
 # Expose the application port
 EXPOSE 8080
